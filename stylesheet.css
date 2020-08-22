@@ -6,7 +6,7 @@ body {
     list-style: none;
   }
   
-  .header {
+  header {
     background-color: #26d0c9;
     color: #fff;
     height: 90px;
@@ -20,15 +20,19 @@ body {
   
   .header-list li {
     float: left;
+    font-size:20px;    
     padding: 33px 20px;
   }
   
-  .main {
+  main {
     padding: 100px 80px;
+    background-image:url("olympic.png");
+    background-color:rgba(255,255,255,0.8);
+    background-size:cover;
   }
   
   .copy-container h1 {
-    font-size: 140px;
+    font-size: 80px;
   }
   
   .copy-container h2 {
@@ -90,7 +94,7 @@ body {
     color:#889eab;
   }
   
-  .footer {
+  footer {
     background-color: #2f5167;
     color: #fff;
     height: 120px;
