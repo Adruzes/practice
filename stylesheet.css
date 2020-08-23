@@ -1,9 +1,15 @@
 body {
     font-family: "Avenir Next";
+    margin:0;
   }
   
   li {
     list-style: none;
+  }
+
+  a{
+    color:#fff;
+    text-decoration: none;
   }
   
   header {
@@ -108,10 +114,30 @@ body {
   }
   
   .footer-list {
-    float: right;
+    float: left;
   }
   
   .footer-list li {
     padding-bottom: 20px;
   }
   
+  img {
+    width:90%;
+    height:auto;
+  }
+
+  @media screen and (max‐width:480px){
+    header{
+      font-size:5vw;
+      width:100%;
+     }
+    main{
+     font-size:2vw;
+     background-size:100%;
+     width:100%;
+    }
+    footer{
+      font-size:5vw;
+      width:100%;
+     }
+  }
